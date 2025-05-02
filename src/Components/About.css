@@ -1,0 +1,12 @@
+.About-page{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+      
+}
