@@ -5,9 +5,14 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Photography from './Components/Photography';
-import Videography from './Components/Videography';
 import Footer from './Components/Footer';
+import Book from './Components/Book';
+import NewPhoto from './Components/NewPhoto';
+import Scrolling from './Components/Scrolling';
+import "bootstrap/dist/js/bootstrap.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Landing from './Components/Landing';
+
 
 
 
@@ -16,20 +21,23 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className='App'>
-       
+     
        
        <Navbar/>
+       <Scrolling/>
+       
 
            <BrowserRouter>
            
 
             <Routes>
-              <Route path='/' element={<Home/>}/>
+              <Route path='/home' element={<Home/>}/>
+              <Route path='/' element={<Landing/>}/>
               <Route path='/home' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/contact' element={<Contact/>}/>
-              <Route path='/photography' element={<Photography/>}/>
-              <Route path='/videography' element={<Videography/>}/>
+              <Route path='/book' element={<Book/>}/>
+              <Route path='/photography' element={<NewPhoto/>}/>
               <Route path='/footer' element={<Footer/>}/>
             </Routes>
            </BrowserRouter>
