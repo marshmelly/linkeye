@@ -12,7 +12,8 @@ const Footer = () => {
           
         </div>
       </div>
-     © {currentYear} Link Eye Agencies. All rights reserved.
+     © {currentYear} Link Eye Agencies. All rights reserved. <br />
+     <a href="/about" className="text-sm hover:underline">About Us</a>
      </footer>
    </div>
   )

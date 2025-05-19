@@ -20,7 +20,7 @@ const Cards = () => {
                 <button
                   className="button"
                   onClick={() => {
-                    navigate("/bookings");}}>
+                    navigate("/contact");}}>
                   Book Now
                 </button>
               </div>
@@ -38,7 +38,7 @@ const Cards = () => {
                 <button
                   className="button"
                   onClick={() => {
-                    navigate("/bookings");}}>
+                    navigate("/contact");}}>
                   Book Now
                 </button>
               </div>
@@ -56,7 +56,7 @@ const Cards = () => {
                 <button
                   className="button"
                   onClick={() => {
-                    navigate("/bookings");}}>
+                    navigate("/contact");}}>
                   Book Now
                 </button>
               </div>

@@ -1,55 +1,54 @@
 import React from 'react'
 import pic from './project files/Pic.png'
 import './Contact.css'
+import fb from './project files/fbb.jpeg'
+import ig from './project files/ig.jpeg'
+
 
 
 
 
 const Contact = () => {
-  const handleSubmit = async (e) =>{
-    e.preventDefault();
-
-  }
-  return (
+return (
     <div className='text'>
       <h1>Contact Us</h1>
     <div className='p-2 pic'>
         <img src={pic} alt="" className='pic' />
     </div>
     
-       <div className="row justify-content-center mt-2">
-       <div className="shadow card col-md-6 p-2">
-        <form onSubmit={handleSubmit}> 
-          <h3>Have Anything to Say?</h3>
-          <input type="text" className='form-control' placeholder='Enter Name' /><br />
-          <input type="email" className='form-control' placeholder='Enter Email' /><br />
-          <textarea name="" id="" cols={50} rows={6}></textarea><br />
-          <button className='button w-25' type="submit">
-            Submit
-          </button>
-        </form>
-      </div>
-
-      
-     </div>
     
 <br /><br />
  
     <div className="row justify-content-center mt-2">
 
-      <div className="shadow card col-md-6 p-2">
-        <h3>You can also contact us at</h3>
-     <div className="col-md-4">
-       <p>linkeyemedia@gmail.com</p>
-      <p>+254 720 887</p>
+    
+       <div className="shadow card col-md-6 p-2">
+        <h3>You can also contact us and book at</h3>
+     <div className="">
+       <a href='https://mail.google.com/mail/u/0/?fs=1&to=linkeyemedia@gmail.com&tf=cm'>linkeyemedia@gmail.com</a>
+      <p> Phone: +254 720 887</p>
      </div>
 
-     <div className="col-md-4">
-      <p></p>
+    <div className="container-fluid row">
+       <div className="col-md-6">
+      <a href="https://www.facebook.com/Zashteh">
+      <img src={fb} alt="facebook" className='contact-pic'/> </a>
+       <p>@Link Eye Media</p>
      </div>
+
+     <div className="col-md-6">
+      <a href="https://www.instagram.com/zashphotocreations/">
+      <img src={ig} alt="instagram" className='contact-pic' /></a>
+      <p>@Zashphotocreations</p>
      </div>
+    </div>
+
+     </div>
+     
 <br /><br />
    </div>
+
+    
  
      <br />
     </div>

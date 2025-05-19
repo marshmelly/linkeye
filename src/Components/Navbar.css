@@ -13,11 +13,18 @@
     z-index: 100;
 }
 
+.photo{
+    max-width: 80px;
+    max-height: 80px;
+    
+}
+
 .nav-menu {
     display: flex;
-    align-items: center;
+    align-items: right;
     list-style: none;
     gap: 45px;
+    padding: 10px;
     color: rgb(252, 251, 250);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;

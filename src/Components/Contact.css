@@ -9,3 +9,12 @@
     transform: translateY(-20px);
     position: relative;
 }
+
+.contact-pic{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: none;
+    
+
+
+}

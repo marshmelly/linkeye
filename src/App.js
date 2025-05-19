@@ -6,12 +6,12 @@ import Contact from './Components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Book from './Components/Book';
 import NewPhoto from './Components/NewPhoto';
 import Scrolling from './Components/Scrolling';
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Landing from './Components/Landing';
+import Newfooter from './Components/Newfooter'
 
 
 
@@ -36,7 +36,7 @@ function App() {
               <Route path='/home' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/contact' element={<Contact/>}/>
-              <Route path='/book' element={<Book/>}/>
+              <Route path='/newfooter' element={<Newfooter/>}/>
               <Route path='/photography' element={<NewPhoto/>}/>
               <Route path='/footer' element={<Footer/>}/>
             </Routes>

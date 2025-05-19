@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-
+import link from './project files/Linkeye copy.jpg'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className={`bar ${isOpen ? 'open' : ''}`}></div>
       </div>
       
-      <div className='header'><h4>LINK EYE MEDIA</h4></div>
+     <div> <h4 className='header'>LINK EYE MEDIA  <img src={link} alt=""  className='photo'/></h4></div>
       
       <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <li className="nav-item"><a href="/home" className="nav-link">Home</a></li>
